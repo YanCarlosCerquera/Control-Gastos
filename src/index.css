@@ -64,7 +64,7 @@ header h1 {
 @media (min-width: 768px) {
     .formulario {
         padding: 5rem 0;
-        width: 60rem;
+        width: 10rem;
     }
 }
 .formulario legend {
@@ -80,6 +80,7 @@ header h1 {
 .formulario .campo {
     display: grid;
     margin-bottom: 2rem;
+    
 }
 
 .formulario label {
@@ -97,6 +98,7 @@ header h1 {
     border: none;
     flex: 1;
     font-size: 1.6rem;
+    width: 100%;
 }
 .formulario input[type="submit"] {
     background-color: #1048a4;
